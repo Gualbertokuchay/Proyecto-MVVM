@@ -52,7 +52,7 @@ class _RegisterFormState extends State<RegisterForm> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Text(
-              "Create Account",
+              "Crear Cuentas",
               style: style16indigo,
             ),
             const SizedBox20(),
@@ -86,7 +86,7 @@ class _RegisterFormState extends State<RegisterForm> {
                 borderRadius: const BorderRadius.all(Radius.circular(20)),
                 color: Colors.indigo,
                 child: const Text(
-                  'Sign Up',
+                  'registrar',
                   style: style16white,
                 ),
                 onPressed: () {
